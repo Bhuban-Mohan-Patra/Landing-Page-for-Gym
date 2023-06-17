@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav{
+    height: 70px;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.top-left{
+    width: 50%;
+    height: 50vh;
+}
+
+.top-right
+{
+    width: 50%;
+    height: 80vh;
+}
+
+.logo{
+    font-size: 1.3rem;
+    z-index: 999;
+}
+
+.top-left img{
+    display: inline-block;
+    width: 17vw;
+    padding-left: 5vw;
+}
+
+.top-right img{
+    width: 466px;
+}
+
+.section1 h1{
+    font-size: 1.5rem;
+}
+
+.section2{
+    padding: 0 17vw;
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+
+.section2 p{
+    padding: 20px 0;
+}
+
+.box{
+    margin: 12px 22px;
+    min-width: 16vw;
+    border: 1px solid orange;
+    border-radius: 8px;
+}
+
+.box h2{
+    text-align: center;
+    padding: 5px 0;
+    background-color: rgb(128, 128, 128, .18);
+}
+
+.box ul{
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box ul li{
+    margin: 8px 0;
+}
+
+.section3{
+    margin-top: 8vh;
+}
+
+footer{
+    padding: 25px;
+}
